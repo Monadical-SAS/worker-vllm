@@ -25,7 +25,7 @@
             "TYPICAL_ACCEPTANCE_SAMPLER_POSTERIOR_THRESHOLD", "TYPICAL_ACCEPTANCE_SAMPLER_POSTERIOR_ALPHA",
             "MODEL_LOADER_EXTRA_CONFIG", "PREEMPTION_MODE", "PREEMPTION_CHECK_PERIOD",
             "PREEMPTION_CPU_CAPACITY", "MAX_LOG_LEN", "DISABLE_LOGGING_REQUEST",
-            "ENABLE_AUTO_TOOL_CHOICE", "ENABLE_REASONING", "TOOL_CALL_PARSER"
+            "ENABLE_AUTO_TOOL_CHOICE", "ENABLE_REASONING", "REASONING_PARSER", "TOOL_CALL_PARSER"
           ]
         },
         {
@@ -1385,6 +1385,21 @@
       { "value": "pythonic", "label": "Pythonic" },
       { "value": "internlm", "label": "InternLM" }
     ]
+  },
+  "ENABLE_REASONING": {
+    "env_var_name": "ENABLE_REASONING",
+    "value": false,
+    "title": "Enable Reasoning",
+    "description": "Enables or disables reasoning",
+    "required": false,
+    "type": "toggle"
+  },
+  "REASONING_PARSER": {
+    "env_var_name": "REASONING_PARSER",
+    "title": "Reasoning parser",
+    "description": "Reasoning parser",
+    "required": false,
+    "type": "text"
   }
 }
 }

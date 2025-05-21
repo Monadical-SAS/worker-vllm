@@ -967,6 +967,15 @@
                 }
             },
             {
+                "key": "REASONING_PARSER",
+                "input": {
+                    "name": "Reasoning parser",
+                    "type": "string",
+                    "description": "Reasoning parser",
+                    "advanced": true
+                }
+            },
+            {
                 "key": "MODEL_NAME",
                 "input": {
                     "name": "Model Name",
