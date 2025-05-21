@@ -778,14 +778,15 @@
     },
     "GUIDED_DECODING_BACKEND": {
       "env_var_name": "GUIDED_DECODING_BACKEND",
-      "value": "outlines",
+      "value": "xgrammar",
       "title": "Guided Decoding Backend",
       "description": "Which engine will be used for guided decoding by default.",
       "required": false,
       "type": "select",
       "options": [
         { "value": "outlines", "label": "outlines" },
-        { "value": "lm-format-enforcer", "label": "lm-format-enforcer" }
+        { "value": "lm-format-enforcer", "label": "lm-format-enforcer" },
+        { "value": "xgrammar", "label": "xgrammar" }
       ]
     },
     "DISTRIBUTED_EXECUTOR_BACKEND": {

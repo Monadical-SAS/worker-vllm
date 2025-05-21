@@ -202,9 +202,13 @@
                         {
                             "label": "lm-format-enforcer",
                             "value": "lm-format-enforcer"
+                        },
+                        {
+                            "label": "xgrammar",
+                            "value": "xgrammar"
                         }
                     ],
-                    "default": "outlines",
+                    "default": "xgrammar",
                     "advanced": true
                 }
             },
