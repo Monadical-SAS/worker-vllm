@@ -956,6 +956,15 @@
                     "default": false,
                     "advanced": true
                 }
+            },            {
+                "key": "ENABLE_REASONING",
+                "input": {
+                    "name": "Enable Reasoning",
+                    "type": "boolean",
+                    "description": "Enables or disables reasoning",
+                    "default": false,
+                    "advanced": true
+                }
             },
             {
                 "key": "MODEL_NAME",
